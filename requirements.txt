@@ -1,0 +1,11 @@
+sentence-transformers==2.2.2
+langchain
+flask
+pypdf
+python-dotenv
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_openai
+langchain_experimental
+-e . # will create a package for this folder. A new '.egg-info' folder will be created. This will ensure that project is set up as a local package. Check using 'pip list'
