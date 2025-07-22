@@ -26,8 +26,6 @@ A GenAI-powered chatbot designed to assist with medical queries using Retrieval-
 
 ## 🗂️ Project Structure
 
-## 🗂️ Project Structure
-
 ```text
 ├── app.py               # Main Flask app
 ├── templates/
@@ -45,9 +43,9 @@ A GenAI-powered chatbot designed to assist with medical queries using Retrieval-
 
 ## 🔑 Environment Variables
 
-Create a `.env` file in the root directory with the following:
+```
+Create a `.env` file in the root directory with the following and add:
 
-```env
 OPENAI_API_KEY=your_openai_api_key
 PINECONE_API_KEY=your_pinecone_api_key
 ```
