@@ -53,23 +53,33 @@ PINECONE_API_KEY=your_pinecone_api_key
 ```
 
 ## 1. Clone the repo
-git clone https://github.com/phaniram05/genai-medical-chatbot.git \n
+
+```
+git clone https://github.com/phaniram05/genai-medical-chatbot.git
 cd genai-medical-chatbot
+```
 
 ## 2. Create and activate a virtual environment
 
+```
 conda create --name <ENV_NAME>
 conda activate <ENV_NAME>
+```
 
 ## 3. Install Dependencies
 
+```
 pip install -r requirements.txt
-
+```
 
 ## 4. Update API Keys
 
+```
 Add / Update your API Keys inside .env
+```
 
 ## Running the App
 
+```
 python app.py
+```
