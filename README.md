@@ -26,16 +26,19 @@ A GenAI-powered chatbot designed to assist with medical queries using Retrieval-
 
 ## 🗂️ Project Structure
 
-├── app.py # Main Flask app
-├── templates/
-│ └── index.html # Chat UI (Flask template)
-├── src/
-│ ├── helper.py # Embedding download and helpers
-│ └── prompt.py # Custom system prompt
-├── .env # API keys and config (not committed)
-├── requirements.txt # Python dependencies
-└── README.md
+## 🗂️ Project Structure
 
+```text
+├── app.py               # Main Flask app
+├── templates/
+│   └── index.html       # Chat UI (Flask template)
+├── src/
+│   ├── helper.py        # Embedding download and helpers
+│   └── prompt.py        # Custom system prompt
+├── .env                 # API keys and config (not committed)
+├── requirements.txt     # Python dependencies
+└── README.md
+```
 
 
 ---
@@ -50,7 +53,7 @@ PINECONE_API_KEY=your_pinecone_api_key
 ```
 
 ## 1. Clone the repo
-git clone https://github.com/phaniram05/genai-medical-chatbot.git
+git clone https://github.com/phaniram05/genai-medical-chatbot.git \n
 cd genai-medical-chatbot
 
 ## 2. Create and activate a virtual environment
